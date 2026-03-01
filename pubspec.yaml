@@ -1,0 +1,28 @@
+name: langup
+description: German language learning app with AI voice conversation.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  dio: ^5.4.0
+  record: ^5.1.0
+  flutter_tts: ^4.0.2
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.3.0
+  flutter_animate: ^4.3.0
+  gap: ^3.0.1
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
